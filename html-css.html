@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Positioning in CSS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    main {
+        margin: 20px;
+    }
+    
+    article {
+        margin-bottom: 40px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #666;
+    }
+    
+</style>
+
+<body>
+	<header>
+		<h1>Positioning in CSS</h1>
+	</header>
+	<main>
+		<article>
+			<h2>Relative Positioning</h2>
+			<p>Relative positioning is a CSS positioning property that positions an element relative to its normal position. When you apply relative positioning to an element, it will still take up space in its original position, but you can move it from that position using the top, bottom, left, and right properties.</p>
+		</article>
+		
+		<article>
+			<h2>Absolute Positioning</h2>
+			<p>Absolute positioning is a CSS positioning property that positions an element relative to its nearest positioned ancestor element. If an element does not have a positioned ancestor, it will be positioned relative to the document body. When you apply absolute positioning to an element, it will not take up space in its original position, and you can move it anywhere on the page using the top, bottom, left, and right properties.</p>
+		</article>
+		
+		<article>
+			<h2>Fixed Positioning</h2>
+			<p>Fixed positioning is a CSS positioning property that positions an element relative to the browser window, rather than the document or its positioned ancestors. When you apply fixed positioning to an element, it will not move when the user scrolls the page, and you can position it anywhere on the screen using the top, bottom, left, and right properties.</p>
+		</article>
+	</main>
+</body>
+</html>
