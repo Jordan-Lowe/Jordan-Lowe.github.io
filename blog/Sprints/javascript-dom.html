@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css" type="text/css">
+    <title>Javascript Dom</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Javascript Basics Blog</h1>
+        <nav>
+          <ul>
+            <a id="Home-Link" href="../index.html">Home</a>
+            <a id="emoBlog-Link" href="../websites-For-Sprints/emotional-intelligence.html">Emotional intellegence blog</a>
+          </ul>
+        </nav>
+      </div>
+      
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Functions and why they are helpful</h2>
+            <p>In JavaScript, functions are a fundamental programming concept that allow a programmer to encapsulate a set of instructions and 
+              execute them as many times as needed. Functions in JavaScript are defined using the "function" keyword, followed by a name and a 
+              set of parentheses that may include parameters. The function body is enclosed in curly braces and contains the set of instructions 
+              that define the function's behavior.
+
+              Functions are helpful in JavaScript for several reasons:
+              
+              <li>Reusability:</li>
+              <p>Functions allow a programmer to write a block of code once and use it multiple times throughout the program, without
+               having to repeat the code.</p>
+              
+              <li>Modularity:</li>
+              <p>Functions can be written and tested independently of the main program, which makes code easier to read, understand, 
+              and maintain. They also help break down complex problems into smaller, more manageable parts.</p>
+              
+              <li>Abstraction:</li> 
+              <p>Functions allow a programmer to create abstractions that hide the complexity of the underlying code. This makes it
+              easier to use and understand the function without having to know the details of how it works.</p>
+              
+              <li>Parameterization:</li> 
+              <p>can accept arguments or parameters, which allows a programmer to customize the behavior of the function 
+              based on the specific needs of the program.</p>
+              
+              In summary, functions are a powerful tool in JavaScript that allow a programmer to write more efficient and maintainable code by 
+              encapsulating sets of instructions and making them reusable and modular.</p>
+            
+          </div>
+          <div class="card">
+            <h2>Accessing data from Arrays and Objects</h2>
+            <p>In JavaScript, arrays and objects are both used to store and organize data, but they have some key differences in how you access
+              that data.<br>
+
+              Arrays are ordered lists of values, typically of the same data type, that you access using numerical indexes. Each value in an 
+              array is assigned a numeric index, starting with 0 for the first value.<br> To access a specific value in an array, you use its index 
+              by enclosing the index in square brackets following the array variable name.<br>
+              
+              Objects, on the other hand, store key-value pairs, where each key represents a unique identifier for a value. You access data in 
+              objects using the key instead of an index. To access a specific value in an object, you use the key enclosed in square brackets or 
+              using the dot notation (if the key name is a valid identifier).<br>
+              
+              In summary, arrays use numerical indexes to access data in an ordered list, while objects use keys to access data in an unordered 
+              collection of key-value pairs.</p>
+          </div>
+
+          <div class="card">
+            <h3>Explanation of Control flow and Loops</h3>
+            <p>Control flow is the order in which instructions are executed in a program. It allows the program to make decisions and execute certain blocks 
+              of code based on conditions.
+
+              A simple example of control flow in everyday life is making breakfast. Let's say you want to make a bowl of cereal with milk. The control 
+              flow would be:</p>
+              
+              <ol>
+                <li>Pour cereal into a bowl.</li>
+                <li>Decide if you want to add any toppings (e.g. fruit, nuts).</li>
+                <li>yes, add the toppings.</li>
+                <li>Pour milk over the cereal.</li>
+                <li>Decide if you want to eat the cereal right away or let it sit for a few minutes.</li>
+                <li>If you want to let it sit, wait a few minutes before eating.</li>
+                <li>Enjoy your cereal!</li>
+              </ol>
+              <p>In this example, the control flow is determined by the decisions you make along the way. You can add toppings or not, 
+                and you can choose to eat the cereal right away or let it sit. These decisions determine which steps are executed and in 
+                what order.</p>
+              
+              <p>Loops are a type of control flow that allows you to repeat a block of code multiple times. An example of a loop in everyday 
+              life is folding laundry. The loop would be:</p>
+              
+              <ol>              
+                <li>Pick up a piece of clothing.</li>
+                <li>Fold the clothing.</li>
+                <li>Put the folded clothing in the appropriate pile (e.g. shirts, pants, socks).</li>
+                <li>Repeat steps 1-3 for each piece of clothing until all the laundry is folded.</li>
+              </ol>
+              <p>In this example, the loop is repeated for each piece of clothing until all the laundry is folded. This allows you to perform
+               the same set of instructions multiple times without having to write them out separately for each item of clothing.</p>
+            
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>Javascript and its relationship to HTML and CSS</h2> 
+            <p>JavaScript, HTML, and CSS are like the ingredients of a sandwich.<br>
+
+              <br>HTML is the bread, the foundation of the sandwich. It provides the structure and content of the sandwich, such as the size, shape, and type 
+              of bread used.<br>
+              
+              <br>CSS is like the condiments, seasonings, and toppings added to the sandwich to give it flavor, texture, and style. It enhances the visual 
+              appearance of the sandwich, such as the color, font, and layout.<br>
+              
+              <br>JavaScript is like the filling, the substance that makes the sandwich complete. It adds interactivity and functionality to the sandwich, 
+              such as the ability to customize or modify the sandwich based on user input or other events.</p>
+          </div>
+          <div class="card">
+            <h3>The DOM</h3>
+              <p>The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the structure of the document 
+                as a tree-like structure, with each node in the tree representing an element, attribute, or text node.<br>
+
+                <br>In simpler terms, the DOM is a way for web developers to access and manipulate the content and structure of a web page using code.
+                
+                <br>Interacting with the DOM involves using JavaScript to select and manipulate elements on a web page. For example, you could use 
+                JavaScript to change the text or color of a button, add or remove an element from the page, or listen for a user interaction like a 
+                button click.<br>
+                
+                <br>To interact with the DOM, you first need to select the element you want to manipulate using JavaScript. This is typically done using a 
+                method like document.getElementById() or document.querySelector(). Once you have a reference to the element, you can modify its 
+                properties or add event listeners to respond to user interactions.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer">
+        <h2>Footer</h2>
+      </div>
+    
+</body>
+</html>
